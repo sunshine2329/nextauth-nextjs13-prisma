@@ -1,5 +1,5 @@
 {
-  "name": "nextauth-nextjs13-prisma",
+  "name": "nextjs-auth",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,25 +13,41 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@tanstack/react-table": "^8.9.3",
+    "axios": "^1.4.0",
+    "bcryptjs": "^2.4.3",
+    "classnames": "^2.3.2",
+    "jose": "^4.14.4",
+    "jsonwebtoken": "^9.0.1",
     "lodash": "^4.17.21",
+    "mongoose": "^7.4.4",
     "next": "13.4.19",
     "next-auth": "^4.23.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.45.4",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.10.1",
+    "react-number-format": "^5.3.0",
+    "recharts": "^2.7.3",
+    "zod": "^3.22.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0",
     "@commitlint/cz-commitlint": "^17.7.1",
     "@next/bundle-analyzer": "^13.4.19",
-    "@tailwindcss/forms": "^0.5.6",
+    "@tailwindcss/forms": "^0.5.4",
+    "@types/bcryptjs": "^2.4.2",
+    "@types/jsonwebtoken": "^9.0.2",
     "@types/lodash": "^4.14.197",
-    "@types/node": "20.5.7",
-    "@types/react": "18.2.21",
+    "@types/node": "20.5.2",
+    "@types/react": "18.2.20",
     "@types/react-dom": "18.2.7",
-    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/eslint-plugin": "^6.4.1",
     "autoprefixer": "10.4.15",
-    "eslint": "^8.48.0",
+    "eslint": "^8.47.0",
     "eslint-config-next": "^13.4.19",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-import": "^2.28.1",
@@ -41,9 +57,10 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "husky": "^8.0.3",
-    "postcss": "8.4.29",
+    "lint-staged": "^14.0.1",
+    "postcss": "8.4.28",
     "tailwindcss": "3.3.3",
-    "typescript": "5.2.2"
+    "typescript": "5.1.6"
   },
   "config": {
     "commitizen": {
