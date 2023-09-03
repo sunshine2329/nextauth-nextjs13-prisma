@@ -12,7 +12,7 @@ export default async function Profile() {
   )
 
   return (
-    <main style={{ maxWidth: 1200, marginInline: 'auto', padding: 20 }}>
+    <main className="max-w-6xl m-auto p-5">
       <div
         style={{
           display: 'grid',
@@ -21,7 +21,7 @@ export default async function Profile() {
         }}
       >
         {users.map(user => (
-          <div key={user.id} style={{ border: '1px solid #ccc', textAlign: 'center' }}>
+          <div key={user.id} className="border text-center">
             <Image
               src={`https://robohash.org/${user.id}?set=set2&size=180x180`}
               alt={user.name}
